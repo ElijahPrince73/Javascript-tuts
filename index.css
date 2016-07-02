@@ -5,3 +5,7 @@
 	display: none;
 	position: relative;
 }
+
+.bold{
+	font-weight: bold;
+}
