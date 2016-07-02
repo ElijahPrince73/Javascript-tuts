@@ -1,0 +1,18 @@
+#red1 {
+	width: 200px;
+	height: 200px;
+	background-color: red;
+}
+
+#red2 {
+	width: 200px;
+	height: 200px;
+	background-color: red;
+}
+
+#green-circle {
+	width: 200px;
+	height: 200px;
+	background-color: green;
+	border-radius: 100px;
+}
