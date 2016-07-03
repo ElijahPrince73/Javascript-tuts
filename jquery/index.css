@@ -1,16 +1,10 @@
-#red1 {
-	width: 200px;
-	height: 200px;
+.square {
+	width: 400px;
+	height: 300px;
 	background-color: red;
+	margin-top: 10px;
 }
-
-#red2 {
-	width: 200px;
-	height: 200px;
-	background-color: red;
-}
-
-#green-circle {
+#circle {
 	width: 200px;
 	height: 200px;
 	background-color: green;
