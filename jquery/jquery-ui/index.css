@@ -9,3 +9,9 @@
 	height: 300px;
 	background-color: blue;
 }
+
+#target{
+	height: 300px;
+	width: 300px;
+	background-color: red;
+}
