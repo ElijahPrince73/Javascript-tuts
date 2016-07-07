@@ -7,3 +7,7 @@ $("#target").droppable({
 		$("#target").css("background-color" , "black");
 	}
 });
+
+$("#accordian").accordion();
+
+$("ul").sortable();
