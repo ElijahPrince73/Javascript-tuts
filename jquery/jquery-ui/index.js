@@ -1,0 +1,2 @@
+$("#square").draggable();
+$("#resizable").resizable();
