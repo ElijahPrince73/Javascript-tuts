@@ -1,39 +1,21 @@
-var myArray = ["superman ", "batman ", "hulk"];
+var myVariable = parseInt(document.getElementById("myFirstInput").value);
 
-
-
-var character = document.getElementById("character").value;
-
-document.getElementById("addCharacter").onclick = function () {
+document.getElementById("runTest").onclick =
+function(){
 	
-character = document.getElementById("character").value;
-	myArray.push(character)
-	console.log(myArray);
-
-	document.getElementById("square").innerHTML= "New Array: " + myArray;
+	var myVariable = parseInt(document.getElementById("myFirstInput").value);
+	
+if ( myVariable == 100){
+	alert("Its 100");
 }
 
+else if( myVariable == 200){
+	alert("the number is not 100 nor 200");
+}
 
+else
+{
+	alert("The number inputed is above 100 and 200");
+}	
+}
 
-//document.write(myArray);
-//document.write(myArray[0]);
-
-//document.getElementById("square").innerHTML = myArray;
-
-//myArray.push("Captain-America");
-//document.getElementById("square").innerHTML = myArray;
-
-//myArray.pop()
-//document.getElementById("square").innerHTML = myArray;
-//myArray.shift();
-//document.getElementById("square").innerHTML = myArray;
-//myArray.unshift("Iron Man");
-//document.getElementById("square").innerHTML = myArray;
-
-//delete myArray[0];
-//document.getElementById("square").innerHTML = myArray;
-//myArray.splice(0,2);
-//document.getElementById("square").innerHTML = myArray;
-
-//myArray.splice(1,0 ,"Ant-Man");
-//document.getElementById("square").innerHTML = myArray;
