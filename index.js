@@ -15,7 +15,7 @@ else if( myVariable == 200){
 
 else
 {
-	alert("The number inputed is above 100 and 200");
+	alert("The number is " + myVariable);
 }	
 }
 
