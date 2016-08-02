@@ -1,11 +1,5 @@
 #box{
-	width: 100px;
-	height: 100px;
-	background-color: red;
-	display: none;
-	position: relative;
-}
-
-.bold{
-	font-weight: bold;
+	width: 500px;
+	height: 500px;
+	background-color: aqua;
 }
