@@ -1,21 +1,36 @@
-var myVariable = parseInt(document.getElementById("myFirstInput").value);
-
-document.getElementById("runTest").onclick =
-function(){
+//var testInterval = setInterval(function(){
 	
-	var myVariable = parseInt(document.getElementById("myFirstInput").value);
+	//alert("this is my interval alert")
+//},
+
+var myInterval = setInterval(function(){
 	
-if ( myVariable == 100){
-	alert("Its 100");
+	timer()
+},1000);
+
+var myButton = document.getElementsByTagName("button")[0];
+
+
+function timer (){
+	
+	var theDate = new Date();
+	
+	var theTime = theDate.toTimeString();
+	document.getElementById("showTimer").innerHTML = theTime;
 }
 
-else if( myVariable == 200){
-	alert("the number is not 100 nor 200");
+function stopTimer (){
+	clearInterval(myInterval);
+	myButton.innerHTML = "Start Time";
+	myButton.setAttribute("onclick" , "startTime()");
 }
 
-else
-{
-	alert("The number is " + myVariable);
-}	
+function startTime(){
+	myInterval = setInterval(function(){
+		timer()
+	}, 1000);
+	
+	myButton.innerHTML = "stop Time";
+	myButton.setAttribute("onclick" , "stopTimer()");
+	
 }
-
