@@ -1,5 +1,47 @@
-#box{
-	width: 500px;
-	height: 500px;
-	background-color: aqua;
+body {
+	background: #ccc;
+	font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", serif;
+	color: #000;
+}
+
+.container {
+	margin-top: 100px;
+}
+
+.tab-panels ul {
+	margin: 0;
+	padding: 0;
+}
+
+.tab-panels ul li {
+	list-style: none;
+	display: inline-block;
+	background-color: skyblue;
+	margin: 0;
+	padding: 3px 10px;
+	border-radius: 10px 10px 0 0;
+	color: white;
+	font-weight: 200;
+}
+
+.tab-panels ul li:hover {
+	color: white;
+	background-color: deepskyblue;
+}
+
+.tab-panels ul li:active {
+	color: white;
+	background-color: deepskyblue;
+}
+
+.tab-panels .panel {
+	display: none;
+	background-color: deepskyblue;
+	padding: 30px;
+	border-radius: 0 0 15px 15px;
+	color: white;
+}
+
+.tab-panels .panel.active {
+	display: block;
 }
